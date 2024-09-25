@@ -2,7 +2,7 @@
 
 int main(){
     int income;
-    float tax=0; 
+    float tax=0; // not necessary to write 0
     printf("Enter income: \n");
     scanf("%d", &income);
     if(income<=250000){
